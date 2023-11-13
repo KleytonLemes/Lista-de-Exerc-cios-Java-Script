@@ -1,0 +1,17 @@
+//5 Média de Notas
+
+let nota1 = parseFloat(prompt("Imforme a Primeira nota"));
+let nota2 = parseFloat(prompt("Imforme a Segunda nota"));
+let nota3 = parseFloat(prompt("Imforme a Terceira nota"));
+
+console.log("Este é um algorito que calcula a média das notas");
+
+//Calculando a media das notas
+let media = (nota1 + nota2 + nota3) / 3;
+
+//media = Math.round(media);
+
+
+//Imprimiando na tela
+alert("a média é " + media.toFixed(2));
+//.toFixed(x) arredonda os valores dos calculos, dentro dos parenteses escolhe a quantidade de casas decimais

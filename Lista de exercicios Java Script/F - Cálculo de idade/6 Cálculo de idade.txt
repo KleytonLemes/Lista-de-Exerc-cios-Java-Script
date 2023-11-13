@@ -1,0 +1,13 @@
+//6 Cálculo de idade
+
+// Pega o nome do usuário
+const nome = prompt("Qual é o seu nome?");
+
+// Pega o ano de nascimento do usuário
+const anoNascimento = prompt("Em que ano você nasceu?");
+
+// Calcula a idade do usuário
+const idadeAproximada = new Date().getFullYear() - anoNascimento;
+
+// Mostra o nome do usuário e sua idade aproximada
+console.log(`Olá, ${nome}! Você tem aproximadamente ${idadeAproximada} anos.`);

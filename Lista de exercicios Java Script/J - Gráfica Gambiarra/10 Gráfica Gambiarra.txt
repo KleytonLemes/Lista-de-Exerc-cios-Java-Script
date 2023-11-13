@@ -1,0 +1,21 @@
+//10 Gráfica Gambiarra
+
+// Declara as variáveis
+const milheiros = prompt("Quantos milheiros foram feitos? ");
+
+// Calcula o valor total bruto
+const valorBruto = milheiros * 169.90;
+
+// Calcula o valor do imposto
+const valorImposto = valorBruto * 0.09;
+
+// Calcula o valor total líquido
+const valorLiquido = valorBruto - valorImposto;
+
+// Imprime os resultados
+alert(`
+Milheiro(s): ${milheiros}
+Total a pagar R$: ${valorBruto}
+Imposto R$: ${valorImposto}
+Total líquido R$: ${valorLiquido}
+`);

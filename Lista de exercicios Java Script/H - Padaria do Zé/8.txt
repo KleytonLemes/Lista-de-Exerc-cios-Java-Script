@@ -1,0 +1,17 @@
+//8
+
+// Declara as variáveis
+const salarioBruto = prompt("Digite o salário bruto de Maria: ");
+
+// Calcula o desconto de IR
+const descontoIR = salarioBruto * 0.15;
+
+// Calcula o salário líquido
+const salarioLiquido = salarioBruto - descontoIR;
+
+// Imprime os resultados
+alert(`
+Salário Bruto R$: ${salarioBruto}
+Desconto IR R$: ${descontoIR}
+Salário Líquido R$: ${salarioLiquido}
+`);

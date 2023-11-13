@@ -1,0 +1,13 @@
+//4 Tempo de Viagem
+
+let distancia = parseFloat(prompt("Digite a distancia a ser percorrida em km"));
+let velocidade = parseFloat(prompt("Informa a velocidade média da corrida em km/h"));
+
+//Criando uma var e calculando as informacoes que o usuario interagil
+const tempoStimado = distancia / velocidade;
+
+//Cria uma mensagem no console do navefador
+console.log("Este é um algoritimo que calcula o tempo estimado de uma viagem");
+
+//Imprimindo o calculo feito
+alert("O tempo estimado da viagem é de " + tempoStimado + " Minutos");

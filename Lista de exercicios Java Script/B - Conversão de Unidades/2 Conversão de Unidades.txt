@@ -1,0 +1,13 @@
+//2 Conversão de Unidades
+
+// Declara a variável
+const km = prompt("Digite a distância em quilômetros: ");
+
+// Calcula a distância em milhas
+const milhas = km * 0.621371;
+
+// Imprime o resultado
+alert(`
+Distância em quilômetros: ${km}
+Distância em milhas: ${milhas}
+`);

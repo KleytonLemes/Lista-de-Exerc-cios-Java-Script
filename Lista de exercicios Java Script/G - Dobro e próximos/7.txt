@@ -1,0 +1,15 @@
+//7
+
+// Declara a variável para armazenar o número digitado
+const numero = prompt("Digite um número: ");
+
+// Calcula o dobro do número
+const dobro = numero * 2;
+
+// Declara as variáveis para armazenar os três próximos números
+const proximo1 = numero + 1;
+const proximo2 = numero + 2;
+const proximo3 = numero + 3;
+
+// Imprime o número digitado, seu dobro e os três próximos números
+alert(`O número digitado é ${numero}. Seu dobro é ${dobro}. Os três próximos números são ${proximo1}, ${proximo2} e ${proximo3}.`);

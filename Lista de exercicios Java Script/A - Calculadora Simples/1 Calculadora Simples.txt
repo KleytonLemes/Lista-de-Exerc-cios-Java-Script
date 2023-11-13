@@ -1,0 +1,19 @@
+//1 Calculadora Simples
+
+// Declara as variáveis
+const numero1 = prompt("Digite o primeiro número: ");
+const numero2 = prompt("Digite o segundo número: ");
+
+// Calcula os resultados
+const soma = numero1 + numero2;
+const subtracao = numero1 - numero2;
+const multiplicacao = numero1 * numero2;
+const divisao = numero1 / numero2;
+
+// Imprime os resultados
+alert(`
+Soma: ${soma}
+Subtração: ${subtracao}
+Multiplicação: ${multiplicacao}
+Divisão: ${divisao}
+`);
